@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Dream Home Denver LLC</title>
+    </head>
+    <body>
+        <header id="header">
+            <img src="photos/creamlogo.png" alt="creamlogo">
+        </header>
+        <nav id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="neighborhood-info.html">Neighborhood Info</a></li>
+                <li><a href="past-sales.html">Past Sales</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <h1>Get in Touch</h1>
+                <form action="/form-handling-url" method="post" id="contact">
+                    <fieldset>
+                        <legend>Send a Message</legend>
+                        <div>
+                            <label for="firstName">First name</label>
+                            <input type="text" id="firstName" name="first_name">
+                        </div>
+        
+                        <div>
+                            <label for="lastName">Last name</label>
+                            <input type="text" id="lastName" name="last_name">
+                        </div>
+        
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email_address">
+                        </div>
+
+                        <div>
+                            <label for="phone">Phone Number</label>
+                            <input type="text" id="phonenumber" name="phone_number">
+                        </div>
+
+                        <div>
+                            <label for="more">What are you looking for?</label>
+                            <textarea name="more" id="more"></textarea>
+                        </div>
+
+                        <div>
+                            <label for="subscribe" class=subscribe>Sign up for Denver real estate news?</label>
+                            <input type="checkbox" id="subscribe" name="subscribe">
+                        </div>
+
+                        <div>
+                            <button type="submit">Sumbit</button>
+                        </div>
+                    </fieldset>
+                </form>
+        </div>
+    </body>
+</html>
